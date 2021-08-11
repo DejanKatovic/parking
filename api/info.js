@@ -7,7 +7,7 @@ const info = (req, res) => {
         if (slot === undefined) {
             const result = {
                 success: false,
-                msg: 'The slot number is not exist',
+                msg: 'The slot number does not exist',
             }
             res.json(result);
         }

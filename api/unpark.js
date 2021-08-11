@@ -4,7 +4,7 @@ const unpark = (req, res) => {
     if (booking === undefined) {
         const result = {
             success: false,
-            msg: 'The slot number is not exist',
+            msg: 'The slot number does not exist',
         }
         res.json(result);
     }
